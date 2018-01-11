@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "DeepLinkKit"
-  s.version          = "1.5.0"
+  s.version          = “t.1.5.0”
   s.summary          = "A splendid route-matching, block-based way to handle your deep links."
   s.description      = <<-DESC
                        DeepLink Kit is a splendid route-handling block-based way to handle deep links. Use DeepLink Kit to parse incoming URLs, extract parameters from the host, url etc.. and even build outgoing deep links. All with a simple, block-based interface.
@@ -17,17 +17,5 @@ Pod::Spec.new do |s|
   s.requires_arc     = true
 
   s.source_files        = 'DeepLinkKit/**/*.{h,m}'
-  s.private_header_files = [
-    "DeepLinkKit/**/DeepLinkKit_Private.h",
-    "DeepLinkKit/**/DPLDeepLink_Private.h",
-    "DeepLinkKit/**/DPLSerializable.h",
-    "DeepLinkKit/**/DPLMatchResult.h",
-    "DeepLinkKit/**/DPLRouteMatcher.h",
-    "DeepLinkKit/**/DPLRegularExpression.h",
-    "DeepLinkKit/**/NSString+DPLTrim.h",
-    "DeepLinkKit/**/NSString+DPLQuery.h",
-    "DeepLinkKit/**/NSString+DPLJSON.h",
-    "DeepLinkKit/**/NSObject+DPLJSONObject.h",
-    "DeepLinkKit/**/UINavigationController+DPLRouting.h",
-]
+
 end
